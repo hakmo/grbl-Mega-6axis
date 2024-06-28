@@ -19,6 +19,9 @@ Grbl includes full acceleration management with look ahead. That means the contr
 
 * Built on the wonderful Grbl v0.6 (2011) firmware written by Simen Svale Skogsrud (Norway).
 
+This fork is meant for the [Eccentric Workshop GRBLDuino Mega shield](https://shop.eccentricworkshop.com/product/grblduino-mega-shield-v1/?v=7516fd43adaa).
+See [here](https://forum.eccentricworkshop.com/viewtopic.php?f=4&t=10) for hardware details.
+
 ***
 
 ### Official Supporters of the Grbl CNC Project
