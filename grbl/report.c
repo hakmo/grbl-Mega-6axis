@@ -546,6 +546,15 @@ void report_realtime_status()
         if (bit_istrue(lim_pin_state,bit(X_AXIS))) { serial_write('X'); }
         if (bit_istrue(lim_pin_state,bit(Y_AXIS))) { serial_write('Y'); }
         if (bit_istrue(lim_pin_state,bit(Z_AXIS))) { serial_write('Z'); }
+#ifdef A_AXIS
+        if (bit_istrue(lim_pin_state,bit(A_AXIS))) { serial_write('A'); }
+#endif
+#ifdef B_AXIS
+        if (bit_istrue(lim_pin_state,bit(B_AXIS))) { serial_write('B'); }
+#endif
+#ifdef C_AXIS
+        if (bit_istrue(lim_pin_state,bit(C_AXIS))) { serial_write('C'); }
+#endif
       }
       if (ctrl_pin_state) {
         if (bit_istrue(ctrl_pin_state,CONTROL_PIN_INDEX_SAFETY_DOOR)) { serial_write('D'); }
